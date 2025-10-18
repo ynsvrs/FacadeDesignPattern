@@ -9,11 +9,19 @@ public class Hotel implements ITravelComponent {
         this.nights = nights;
     }
 
-    public String getHotelName() { return hotelName; }
-    public void setHotelName(String hotelName) { this.hotelName = hotelName; }
+    public String getHotelName() {
+        return hotelName;
+    }
+    public void setHotelName(String hotelName) {
+        this.hotelName = hotelName;
+    }
 
-    public int getNights() { return nights; }
-    public void setNights(int nights) { this.nights = nights; }
+    public int getNights() {
+        return nights;
+    }
+    public void setNights(int nights) {
+        this.nights = nights;
+    }
 
     @Override
     public void book() {
